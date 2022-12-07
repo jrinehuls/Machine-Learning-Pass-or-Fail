@@ -8,7 +8,7 @@ df = pd.read_csv("exams.csv")
 
 #df["gender"].value_counts().plot(kind="bar", rot=0)
 
-# --------------------------------------<Convert values to ints for graphing>-------------------------------------------
+# --------------------------------------<Convert values to ints for analysis>-------------------------------------------
 df.replace(to_replace="male", value=1, inplace=True)
 df.replace(to_replace="female", value=2, inplace=True)
 df.replace(to_replace="group A", value=1, inplace=True)
@@ -26,7 +26,7 @@ df.replace(to_replace="free/reduced", value=1, inplace=True)
 df.replace(to_replace="standard", value=2, inplace=True)
 df.replace(to_replace="completed", value=1, inplace=True)
 df.replace(to_replace="none", value=2, inplace=True)
-# --------------------------------------</Convert values to ints for graphing>------------------------------------------
+# --------------------------------------</Convert values to ints for analysis>------------------------------------------
 #scatter_matrix(df[["writing score", "reading score", "math score"]])
 
 for grade in range(60, 101):
