@@ -11,4 +11,4 @@ Also predicts likelihood of passing in each subject. This is for a fictional SAT
 to focus on co-creating value for the organization, parents, and students by cutting wasted time and resources
 by focusing tutoring in weak subjects.
 
-Click the link and follow the instructions on that page. 
+Click the link at the top of the readme and follow the instructions on that page. 
